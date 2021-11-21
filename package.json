@@ -1,0 +1,35 @@
+{
+  "name": "adminutil",
+  "version": "0.0.1",
+  "description": "Discord and Webhosting",
+  "main": "index.js",
+  "jsnext:main": "src/sweetalert2.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "discord.js": "^12.5.3",
+    "express": "^4.17.1",
+    "got": "^11.0.3",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.2.2",
+    "node-keepalive": "^0.0.1",
+    "path": "^0.12.7",
+    "quick.db": "^7.1.3",
+    "quickdb": "^1.0.5",
+    "request": "^2.88.2"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/build-a-discord-bot"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
